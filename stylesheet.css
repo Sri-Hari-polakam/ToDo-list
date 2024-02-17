@@ -21,10 +21,19 @@ body {
 .addon
 {   position: absolute;
     height: 100px;
-    margin-top: -600px;
+    margin-top: -590px;
     margin-left: 100px;
-    z-index: 5;
+    z-index: 2;
     
+}
+.font
+{
+  font-family: "Kode Mono", monospace;
+  font-weight: 100PX;
+  font-style: normal;
+
+    
+
 }
 .container {
   width: 400px;
@@ -78,10 +87,14 @@ h1 {
 }
 
 .empty-image {
-  object-fit: cover;
-  margin: 55px auto 0;
-  display: block;
+  position:absolute;
+  display:block;
+  height:auto;
+  width:230px;
+  margin-left: 50px;
+  z-index: ;
 }
+
 
 .todo {
   list-style: none;
@@ -211,4 +224,12 @@ input:checked + span {
 .delete-all:hover {
   border-radius: 5px;
   background-color: #e6b7eca1;
+}
+.naddon
+{
+    position: absolute;
+    height: 50px;
+    margin-top: -800px;
+    margin-left: -1500px;
+    z-index: -3;   
 }
